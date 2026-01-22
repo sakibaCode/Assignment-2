@@ -249,3 +249,89 @@ body {
     justify-content: center;
     gap: 14px;
 }
+
+/* Feature Section Style */
+
+#feature-section {
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.features-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+/* Episodes Section Style */
+
+#episodes-section{
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient( #1a0b2e, #070014);
+}
+
+.episodes-container{
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title{
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.episodes-grid{
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.episode-card{
+  border-radius: 24px;
+  background: #2a0f4d;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.45);
+}
+
+.episode-thumb{
+  width: 100%;
+  height: 220px;
+  background: black;
+}
+
+.episode-thumb iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.episode-content{
+  padding: 26px;
+  text-align: left;
+}
+
+.episode-content h3{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.episode-content p{
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
