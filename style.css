@@ -1,0 +1,14 @@
+
+/* shared style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+}
