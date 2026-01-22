@@ -64,6 +64,18 @@ body {
   font-weight: 500;
 }
 
+.hamburger{
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  background: white;
+  border-radius: 2px;
+}
 /* Hero Section Style */
 
 #hero-section {
@@ -433,4 +445,24 @@ body {
   width: 18px;
 }
 
+
+/* Responsiveness */
+
+@media (max-width: 576px) {
+
+    .nav-links{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+
+
+}
 
